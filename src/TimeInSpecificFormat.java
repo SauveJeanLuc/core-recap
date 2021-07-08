@@ -5,7 +5,7 @@ import java.util.TimeZone;
 
 /** Java program to display the current date time in specific format.
  * @author SAUVE Jean-Luc
- * @version 1.1
+ * @version 1.2
  */
 public class TimeInSpecificFormat {
 
