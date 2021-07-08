@@ -23,9 +23,8 @@ public class TimeInSpecificFormat {
         dateFormat.setCalendar(Calendar.getInstance(TimeZone.getTimeZone("GMT")));
 
         // Display the now time
-        while(true){
             System.out.println("Time(now): "+dateFormat.format(System.currentTimeMillis()));
-        }
+
 
     }
 }
