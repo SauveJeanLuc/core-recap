@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /** Java program to count the letters, spaces, numbers and other characters of an input string
  * @author SAUVE Jean-Luc
- * @version 1.0
+ * @version 1.1
  */
 public class CountLetterSpace {
 
