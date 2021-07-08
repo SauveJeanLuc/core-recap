@@ -1,10 +1,9 @@
+import java.util.Scanner;
+
 /** Java program to count the letters, spaces, numbers and other characters of an input string
  * @author SAUVE Jean-Luc
  * @version 1.0
  */
-
-import java.util.Scanner;
-
 public class CountLetterSpace {
 
     public static void main(String[] args){
@@ -25,14 +24,14 @@ public class CountLetterSpace {
         System.out.println("Text you Entered: "+textToProcess);
 
         // Entering the processing unit
-        for(int i = 0; i < testChar.length; i++){
-            if(Character.isLetter(testChar[i])){
+        for(char item : testChar){
+            if(Character.isLetter(item)){
                 numOfLetters++;
             }
-            else if(Character.isDigit(testChar[i])){
+            else if(Character.isDigit(item)){
                 numOfNumbers++;
             }
-            else if(Character.isSpaceChar(testChar[i])){
+            else if(Character.isSpaceChar(item)){
                 numOfSpaces++;
             }
             else{
