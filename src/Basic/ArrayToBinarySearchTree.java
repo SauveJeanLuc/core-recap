@@ -1,3 +1,5 @@
+package Basic;
+
 import java.util.Scanner;
 
 /** Java program to convert an sorted array to binary search tree

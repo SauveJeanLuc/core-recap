@@ -1,3 +1,5 @@
+package Basic;
+
 import java.util.Scanner;
 
 /** Java program to count the letters, spaces, numbers and other characters of an input string
